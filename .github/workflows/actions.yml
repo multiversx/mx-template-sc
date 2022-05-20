@@ -6,6 +6,10 @@ on:
       - main
   pull_request:
 
+permissions:
+  checks: write
+  pull-requests: write
+
 jobs:
   contracts:
     name: Contracts
