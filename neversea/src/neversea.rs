@@ -6,8 +6,7 @@ use multiversx_sc::imports::*;
 pub trait Neversea {
     #[init]
     fn init(&self, initial_registration_fee: BigUint) {
-        self.registration_fee()
-            .set(BigUint::from(initial_registration_fee));
+        self.registration_fee().set(initial_registration_fee);
     }
 
     /// Add desired amount to the storage variable.
