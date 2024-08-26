@@ -11,14 +11,18 @@ Cargo.lock
 
 # VSCode specific files
 .vscode/*
-elrond.workspace.json
 
-# Elrond IDE
+# MultiversX IDE
 **/node_modules
 **/output/**
 **/testnet/**
-**/erdpy.data-storage.json
+**/mxpy.data-storage.json
 **/*.interaction.json
+
+# Zip output with example wasm binaries
+examples-wasm.zip
+
+tags
 
 # Python scripts
 **/__pycache__/**
