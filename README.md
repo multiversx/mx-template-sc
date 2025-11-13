@@ -8,7 +8,7 @@ Template for creating smart contracts.
 
 # Never Sea Festival Smart Contract
 
-You are the Never Sea Festival 2023 organizers and you decide to create the registration via blockchain.
+You are the Never Sea Festival organizers and you decide to create the registration via blockchain.
 Starting from this Smart Contract template you have to add more features to coordinate the event.
 
 * Compile and deploy the Smart Contract template ===
