@@ -13,7 +13,7 @@ pub trait Neversea {
     #[endpoint]
     fn register(&self) {
         let caller = self.blockchain().get_caller();
-        let payment_amount = self.call_value().egld_value().clone_value();
+        let payment_amount = self.call_value().egld().clone_value();
         require!(
             payment_amount == self.registration_fee().get(),
             "Registration fee is incorrect; please check and try again"
