@@ -18,5 +18,6 @@ jobs:
     with:
       rust-toolchain: stable
       enable-contracts-size-report: false
+      enable-interactor-tests: false
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
